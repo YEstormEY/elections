@@ -1,6 +1,23 @@
 {
   "dependencies": {
+    "@types/d3": "^7.4.3",
     "d3": "^7.9.0",
+    "sockjs": "^0.3.24",
+    "sockjs-client": "^1.6.1",
+    "stompjs": "^2.3.3",
     "vue-router": "^4.0.13"
+  },
+  "scripts": {
+    "dev": "npm run --prefix frontend-election dev",
+    "build": "npm run --prefix frontend-election build",
+    "start": "npm run --prefix frontend-election preview"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/stompjs": "^2.3.9",
+    "@vue/compiler-sfc": "^3.5.13",
+    "@vue/tsconfig": "^0.7.0",
+    "http-server": "^14.1.1",
+    "vue-tsc": "^2.1.10"
   }
 }
