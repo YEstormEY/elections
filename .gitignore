@@ -3,7 +3,6 @@
 **/__MACOSX/
 Thumbs.db
 
-**/dist
 **/node_modules
 **/.env.local
 
