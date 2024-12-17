@@ -17,7 +17,6 @@ Thumbs.db
 *.iws
 **/target/
 **/out/
-**/dist/
 *.lock
 
 # IDE - VSCode
